@@ -1,0 +1,17 @@
+<?php
+$fruits=['りんご','バナナ','苺','ぶどう','キウイ'];
+echo '配列fruitsの3番目の値は「' . $fruits[2] . '」です。';
+echo '<br>';
+echo "配列fruitsの3番目の値は「 {$fruits[2]} 」です。";
+
+$fruits[]='パイナップル';
+echo '<pre>';
+print_r($fruits);
+echo '</pre>';
+
+$fruits[0]='スイカ';
+echo '配列1番目を上書き';
+echo '<pre>';
+print_r($fruits);
+echo '</pre>';
+?>
